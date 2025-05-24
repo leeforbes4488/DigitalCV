@@ -1,0 +1,26 @@
+h1 {
+    color: #000000;
+    font-size: 30px;
+    text-shadow: #ffffff 3px 3px 3px;
+}
+
+p, li, td, th, caption, h1, h2, h3, h4, h5, h6 {
+    font-family: "Playpen sans hebrew", cursive, sans-serif ;
+    text-align: left;
+}
+
+body {
+       background: linear-gradient( #7ecff2, #ebf8e1);
+     }
+
+table, th,td {
+        border: 1px solid black;
+    }
+
+footer {
+        text-shadow: 5px 5px 5px rgb(243, 224, 6);
+       }
+caption {
+        font-size: 20px;
+        text-align: center;
+         }
