@@ -1,31 +1,39 @@
+
+/* Using text shadow to create a 3D effect on text black & white */
 h1 {
     color: #000000;
     font-size: 30px;
-    text-shadow: #ffffff 3px 3px 3px;
+    text-shadow: hsl(0, 0%, 100%) 3px 3px 3px;
 }
+    
+/* using font family to change the font of the text, 
+link ref in HTML file for google fonts; also used a backup font */
 
 p, li, td, th, caption, h1, h2, h3, h4, h5, h6 {
     font-family: "Playpen sans hebrew", cursive, Georgia, 'Times New Roman', Times, serif ;
     text-align: left;
 }
 
+/* Using a linear gradient for the background color of the body
+going from one color to another color on the page */
 body {
        background: linear-gradient( #7ecff2, #ebf8e1);
      }
-
+/* Using a border for the table to showcase my coursework */
 table, th,td {
         border: 1px solid black;
     }
-
+/* Using text shadow to enchance the text black & white */
 footer {
-        text-shadow: 5px 5px 5px rgb(243, 224, 6);
+        text-shadow: 5px 5px 5px rgb(156, 147, 50);
        }
+/* Center aligned text "Courses" on my table to be more readable */
 caption {
         font-size: 20px;
         text-align: center;
          }
 
-    
+/* Using image hover effect to create a zoom in effect on the image */    
 img:hover {
         transform: scale(1.2);
     }
