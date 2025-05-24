@@ -1,9 +1,15 @@
+/* increasing all text size on the page to 22px */
+html{
+    font-size: 22px;
+}
+
 
 /* Using text shadow to create a 3D effect on text black & white */
 h1 {
     color: #000000;
     font-size: 30px;
     text-shadow: hsl(0, 0%, 100%) 3px 3px 3px;
+    text-transform: uppercase;
 }
     
 /* using font family to change the font of the text, 
@@ -30,10 +36,17 @@ footer {
 /* Center aligned text "Courses" on my table to be more readable */
 caption {
         font-size: 20px;
+        font-weight: bolder;
         text-align: center;
+        text-transform: capitalize;
          }
 
 /* Using image hover effect to create a zoom in effect on the image */    
 img:hover {
         transform: scale(1.2);
     }
+/*removing the underline in links */
+    a {
+        text-decoration: none;
+    }
+
