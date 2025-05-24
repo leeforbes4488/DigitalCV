@@ -5,7 +5,7 @@ h1 {
 }
 
 p, li, td, th, caption, h1, h2, h3, h4, h5, h6 {
-    font-family: "Playpen sans hebrew", cursive, sans-serif ;
+    font-family: "Playpen sans hebrew", cursive, Georgia, 'Times New Roman', Times, serif ;
     text-align: left;
 }
 
@@ -24,3 +24,8 @@ caption {
         font-size: 20px;
         text-align: center;
          }
+
+    
+img:hover {
+        transform: scale(1.2);
+    }
