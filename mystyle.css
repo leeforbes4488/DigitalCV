@@ -7,7 +7,7 @@ html{
 /* Using text shadow to create a 3D effect on text black & white */
 h1 {
     color: #000000;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: hsl(0, 0%, 100%) 3px 3px 3px;
     text-transform: uppercase;
 }
