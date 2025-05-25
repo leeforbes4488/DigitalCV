@@ -51,6 +51,8 @@ img:hover {
     }
    
     ol{
-        margin-right: 30px;
-        padding-right: 30px;;
+        width: 15vw;
+        padding-right: 30%;
+        margin-right: 30%;
+    
     }
