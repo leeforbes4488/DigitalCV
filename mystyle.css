@@ -1,4 +1,4 @@
-/* increasing all text size on the page to 22px */
+/* increasing all text size on the page to 30px */
 html{
     font-size: 30px;
 }
@@ -17,7 +17,7 @@ link ref in HTML file for google fonts; also used a backup font */
 
 p, li, td, th, caption, h1, h2, h3, h4, h5, h6 {
     font-family: "Playpen sans hebrew", cursive, Georgia, 'Times New Roman', Times, serif ;
-    text-align: left;
+    
 }
 
 /* Using a linear gradient for the background color of the body
@@ -49,8 +49,8 @@ img:hover {
     a {
         text-decoration: none;
     }
-
-    li{
-        text-indent: 2%;
+   
+    ol{
+        margin-right: 30px;
+        padding-right: 30px;;
     }
-
