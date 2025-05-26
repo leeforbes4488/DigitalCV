@@ -51,8 +51,7 @@ img:hover {
     }
    
     ol{
-        width: 15vw;
-        padding-right: 30%;
-        margin-right: 30%;
+        list-style-position: inside;
+        
     
     }
