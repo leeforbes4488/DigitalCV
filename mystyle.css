@@ -52,6 +52,21 @@ img:hover {
    
     ol{
         list-style-position: inside;
-        
-    
     }
+
+
+
+.underline {
+    text-decoration: underline;
+    color: #e607b9;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+.social-link:hover{
+    text-decoration: underline;
+    color: #e607b9;
+
+}
