@@ -72,5 +72,10 @@ input:focus {
 }
 
 .phone {
-    text-decoration: #e607b9;
+    color: #e607b9;
+    text-decoration: underline;
+}
+
+table +tr ,th {
+    color: #f34a01 ;
 }
