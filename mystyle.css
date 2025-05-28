@@ -84,15 +84,12 @@ input:focus::placeholder {
     color: #000000;
 }
 
-img[src*="BusinessProfilepic"]  {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+
+a[href^="phone"] {
+    color: #e607b9;
+    text-decoration: underline;
 }
 
-img[src*="media"] {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
+    
+
 
