@@ -79,3 +79,20 @@ input:focus {
 table +tr ,th {
     color: #f34a01 ;
 }
+
+input:focus::placeholder {
+    color: #000000;
+}
+
+img[src*="BusinessProfilepic"]  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+img[src*="media"] {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
