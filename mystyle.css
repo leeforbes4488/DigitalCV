@@ -47,7 +47,7 @@ img:hover {
     }
 /*removing the underline in links */
     a {
-        text-decoration: none;
+        text-decoration: none !important;
     }
    
     ol{
