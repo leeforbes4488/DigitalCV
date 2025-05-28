@@ -69,6 +69,7 @@ input:focus {
 
 .phone {
     color: #e607b9;
+    text-decoration: underline
     
     
 }
@@ -82,11 +83,6 @@ input:focus::placeholder {
 }
 
 
-a[href^="phone"] {
-    color: #e607b9;
-    text-decoration-line: underline !important;
-    
-}
 
     
 
