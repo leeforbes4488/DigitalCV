@@ -73,7 +73,7 @@ input:focus {
 
 .phone {
     color: #e607b9;
-    text-decoration: none;
+    text-decoration: none !important;
     
 }
 
