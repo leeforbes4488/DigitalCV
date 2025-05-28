@@ -45,10 +45,6 @@ caption {
 img:hover {
         transform: scale(1.2);
     }
-/*removing the underline in links */
-    a {
-        text-decoration: none !important;
-    }
    
     ol{
         list-style-position: inside;
