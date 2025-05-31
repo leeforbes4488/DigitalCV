@@ -17,19 +17,20 @@ p, li, td, th, caption, h1, h2, h3, h4, h5, h6 {
 /* Using a linear gradient for the background color as well as CSS box model
 to create a picture frame around the edges */
 body {
-       margin: 5px;
-       padding: 8px;
-       border: 20px groove rgb(0, 0, 0);
+       margin: 1em;
+       padding: 5em;
+       border: 3em groove rgba(0, 0, 0 , 0.5);
        box-sizing: border-box;
        background: linear-gradient( #8dd6f5, #d991f7);
      }
 /* Using CSS box model with my table in HTML */
 table, th,td {
-    width:50%;
-    height:5%;
-    border: 10px solid black;
-    padding: 5px;
-    margin: 30px;
+    width:30%;
+    max-width: 100%;
+    height: 1em;
+    border: 1em solid black;
+    padding: 2em;
+    margin: 3em;
     background-color: #f0f0f0;
     box-sizing: border-box;
     border-collapse: collapse;
@@ -48,7 +49,7 @@ footer {
        }
 /* Center aligned text "Courses" on my table to be more readable */
 caption {
-        font-size: 30px;
+        font-size: 2em;
         font-weight: bolder;
         text-align: center;
         text-transform: capitalize;
@@ -90,41 +91,39 @@ caption {
         box-sizing: border-box;
         display: block;
     }
-
+/*styling Contact me section with text shadow, font size, and color */
 .contact {  font-size: 25px;
             text-decoration: underline;
             color: rgb(238, 8, 8);
             text-shadow: black 1px 1px 2px;
             font-weight: bold;
 }
-
+/*positioning ordered list so its not cut off from the page */
     ol{
         list-style-position: inside;
     }
 
-.underline {
-    text-decoration: underline;
-    color: #e607b9;
-}
-
-input:focus {
+    /* When text area is selected, it will have a background color as your typing */
+ input:focus {
     background-color: aqua;
 }
 
+/* When hovering over the social link, it will change the color and underline the text */
 .social-link:hover{
     text-decoration: underline;
     color: #e607b9;
 
 }
-
+/* underlining my phone number and changing the color */
 .phone {
     color: #e607b9;
     text-decoration: underline;
     
 }
 
+/* changing the color of the placeholder text in the input field */
 input:focus::placeholder {
-    color: #000000;
+    color: #5251ab;
 }
 /* adjusting the width of the text across the page */
 .summary{
@@ -134,7 +133,13 @@ input:focus::placeholder {
     text-align: left;
 }
 
-
+/* aligning the text in the portfolio section to the left and adjusting the width */
+#portfolio {
+    max-width: 600px;
+    margin: 0;
+    word-wrap: break-word;
+    text-align: left;
+}
 
     
 
