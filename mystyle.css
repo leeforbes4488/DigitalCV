@@ -24,17 +24,23 @@ body {
        background: linear-gradient( #8dd6f5, #d991f7);
      }
 /* Using CSS box model with my table in HTML */
-table, th,td {
-    width:100%;
-    max-width: 100%;
-    height: auto;
-    border: 1em solid black;
-    padding: 2em;
-    margin: 2em 0;
-    background-color: #f0f0f0;
-    box-sizing: border-box;
+table {
+    width: 100%;
     border-collapse: collapse;
+    margin: 1em auto;
+    overflow-x: auto;
+    display: block;
+    box-sizing: border-box
+    
+}
+
+th,td {
+    border: 2px solid black;
+    padding: 1em;
     text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
     
 }
 /* Using text shadow to enchance the text black & white */
