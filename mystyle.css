@@ -17,9 +17,9 @@ p, li, td, th, caption, h1, h2, h3, h4, h5, h6 {
 /* Using a linear gradient for the background color as well as CSS box model
 to create a picture frame around the edges */
 body {
-       margin: 1em;
-       padding: 5em;
-       border: 3em groove rgba(0, 0, 0 , 0.5);
+       margin: 0.5em;
+       padding: 1em;
+       border: 1em groove rgba(0, 0, 0 , 0.5);
        box-sizing: border-box;
        background: linear-gradient( #8dd6f5, #d991f7);
      }
@@ -141,6 +141,39 @@ input:focus::placeholder {
     text-align: left;
 }
 
-    
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .summary, #portfolio {
+        max-width: 100%;
+        padding: 0 1em;
+        margin: auto;
+        text-align: left;
+    }
 
+    .pic1, .pic2, .pic3 {
+        display: block;
+        margin: 1em auto;
+    }
+    table, th, td {
+        width: 100%;
+        margin: 1em 0;
+        padding: 1em;
+        font-size: 14px;
+}
 
+    caption {
+        font-size: 1.5em;
+    }
+    .contact {
+        font-size: 20px;
+        text-align: center;
+    }
+    body {
+        padding: 1em;
+        border-width: 1em;
+    }
+
+}
