@@ -118,8 +118,8 @@ caption {
 }
 /* underlining my phone number and changing the color */
 .phone a {
-    color: #e607b9;
-    text-decoration: underline;
+    color: #e607b9 !important;
+    text-decoration: underline !important;
     
 }
 
