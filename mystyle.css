@@ -147,14 +147,14 @@ img {
         font-size: 28px;
         text-align: center;
     }
-    .summary, #portfolio {
+    .summary {
         max-width: 100%;
-        padding: 0 1em;
+        padding: 0, 1em;
         margin: auto;
         text-align: left;
     }
 
-    .pic1, .pic2, .pic3 {
+    .pic1, .pic2{
         display: block;
         margin: 1em auto;
     }
