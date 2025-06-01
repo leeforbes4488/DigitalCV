@@ -33,7 +33,7 @@ table {
     box-sizing: border-box
     
 }
-
+/* Using CSS box model to set the padding, margin, and border of the table */
 th,td {
     border: 2px solid black;
     padding: 1em;
@@ -84,7 +84,7 @@ caption {
         
         }
 /* Using css box model to set the padding, margin, and border of the image */
-.pic3 {
+.pic2 {
         width: 75px;
         height: 75px;
         padding: 2px;
@@ -135,15 +135,7 @@ input:focus::placeholder {
     text-align: left;
 }
 
-/* aligning the text in the portfolio section to the left and adjusting the width */
-#portfolio {
-    max-width: 600px;
-    margin: 0;
-    word-wrap: break-word;
-    text-align: left;
-}
-
-
+/* making the images responsive to the page */
 img {
     max-width: 100%;
     height: auto;
