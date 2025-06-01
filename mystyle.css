@@ -117,7 +117,7 @@ caption {
 
 }
 /* underlining my phone number and changing the color */
-.phone {
+.phone a {
     color: #e607b9;
     text-decoration: underline;
     
