@@ -9,11 +9,13 @@ h1 {
     
 }
 
+/* displaying flex to center content*/
 h3 {
     display: flex;
     justify-content: center;
 }
 
+/* displaying flex to center content*/
 p {
     display: flex;
     justify-content: center;
@@ -39,6 +41,7 @@ body {
        
      }
 
+     /* displaying flex to center content*/
      .contactme{
         display: flex;
         justify-content: center;
@@ -46,19 +49,20 @@ body {
         text-decoration: underline;
        
      }
-
+     /* displaying flex to center content*/
      .connect {
         display: flex;
         justify-content: center;
      }
-
+     /* displaying flex to center content*/
     .programs {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-ol {
+    /* displaying flex to center content*/
+    ol {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -66,7 +70,6 @@ ol {
         gap: 10px;
         list-style-position: inside;
         
-       
     }
 
     
@@ -164,6 +167,7 @@ caption {
     text-decoration: underline;
     color: #e607b9;
     
+    /* centering content using inline-block*/
     .skills {
         display: inline-block;
         justify-content: center;
@@ -171,7 +175,7 @@ caption {
 
 
 }
-
+    /* displaying flex to center content*/
     .phone {
         display: flex;
         justify-content: flex-end;
@@ -180,7 +184,7 @@ caption {
 
     }
 
-
+    /* displaying flex to center content*/
     .form {
         display:grid;
         justify-content: center;
@@ -188,12 +192,12 @@ caption {
         
         
     }
-
+    /* aligning text to the left side starting point*/
     .summary {
         text-align: start;
        
     }
-
+    /* adjusting radio buttons to align with text straight across*/
    .morning{
     position: relative;     
     top: 15px;
@@ -214,7 +218,7 @@ input:focus::placeholder {
 
     
 
-
+/* displaying flex to center content*/
  .name {
         font-size: 28px;
         display: flex;
