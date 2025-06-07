@@ -244,8 +244,10 @@ input:focus::placeholder {
         
 
     @media (max-width: 768px) {
-        th, td, .project1 {
+        table, th, td, {
+            max-width: 100%;
             flex-direction: column;
-            padding:10px;
+            padding: 10px;
+            overflow: hidden;
         }
     }
