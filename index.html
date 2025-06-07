@@ -13,17 +13,18 @@
    <div>
  <img class="pic1" src="BusinessProfilepic.jpeg" alt="profile picture">
    </div>
-  <h1><b>Lee Michel</h1> 
+  <h1 class="name"><b>Lee Michel</h1> 
   <body>
-<section>
-<p> <a href="mailto:lfmichel007@icloud.com"> Click here to email me</a></p>
-<p class="phone"><a href="tel:8303754493">830-375-4493</a></p>
-</section>
-<section>
-<h2>Summary</h2>
+<div>
+<p><a class="email" href="mailto:lfmichel007@icloud.com"> Click here to email me</a></p>
+<p><a class="phone" href="tel:8303754493">830-375-4493</a></p>
+</div>
+<div>
+  <h2>Summary</h2>
 <p class="summary"> Front End Web Developer utilizing HTML, CSS, Javascript and Python. Currently enrolled in Springboard Software Engineering course. Looking to collaborate with other developers to build software applications and websites.
 Open to all opportunities. Looking to network, build and develop the future.
-</section>
+</hr>
+</div>
 <section>
 <h2>Education</h2> 
 <p>
@@ -71,9 +72,9 @@ Open to all opportunities. Looking to network, build and develop the future.
         </tr>
     </table>
 </section>
-<section>
-  <h3>Computer Skills</h3>
+  <h3 class="skills">Computer Skills</h3>
 <p>
+  <div class="programs">
     <ul>
       <li>HTML</li>
       <li>CSS</li>
@@ -83,13 +84,14 @@ Open to all opportunities. Looking to network, build and develop the future.
       <li>Node.js</li>
       <li>Express.js</li>
     </ul>
+  </div>
 </p>
 </section>
 <section>
   <h3>Work Experience</h3>
   <p>
       <!--Ordered list from most recent being number 1-->
-     
+     <div container="Experience">
     <ol>
       <li><b>Sales Associate</b> - Walmart  (2024-Present)</li>
       <li><b>Sales Associate</b> - Home Depot (2018-2024)</li>
@@ -97,6 +99,7 @@ Open to all opportunities. Looking to network, build and develop the future.
       <li><b>Administrative Assistant</b> - Southwest Securities (2011-2015)</li>
       <li><b>Front End Web Developer Intern</b> - The Firm INC. (2009-2012)</li>
     </ol>
+    </div>
   </p>
 </section>
 <section>
@@ -105,15 +108,15 @@ Open to all opportunities. Looking to network, build and develop the future.
        <img src="Resume.jpeg" alt="resume picture">
       </div>
       <br>
-      <h4><em>Lets connect!</em> Find me on:</h4>
+      <h4 class="connect"><em>Lets connect!</em></h4>
     <p> <a class="social-link" href="https://www.linkedin.com/in/leeforbes4488">LinkedIn</a> </p>
     <p> <a class="social-link" href="https://github.com/leeforbes4488">GitHub</a> </p>
   </section>
   
 
-    <h1>Contact Me</h1> 
+    <h1 class="contactme">Contact Me</h1> 
     <!--stimulating a server response after the submit form is submitted-->
-    <form action="#" method="get">
+    <form class="form" action="#" method="get">
         <!-- label using for/id -->
         <label for="name">Name:</label>
          <input type="text" placeholder="Enter your name" name="name" id="name" required>
@@ -145,31 +148,32 @@ Open to all opportunities. Looking to network, build and develop the future.
                 <option value="leave a message">leave a message</option>
                 <option value="schedule an interview">schedule an interview</option>
             </select>
-            <br>
             <!-- radio buttons for time of day to contact -->
             <p>What is the best time to contact you?</p>
-            <label for="morning">Morning</label>
+            <label class="morning" for="morning">Morning</label>
             <input type="radio" name="time" id="morning" value="morning">
-            <label for="afternoon">Afternoon</label>
+            <label class="afternoon" for="afternoon">Afternoon</label>
             <input type="radio" name="time" id="afternoon" value="afternoon">
-            <label for="evening">Evening </label>
+            <label class="evening" for="evening">Evening </label>
             <input type="radio" name="time" id="evening" value="evening">
-            <p>
+            <p>  
             <img class="pic2" src=
             "https://media.istockphoto.com/id/1194224249/vector/day-and-night-sun-and-moon.jpg?s=612x612&w=0&k=20&c=kCmlucOSbTYJjL8hjtQyh8ziZIKy-4iHPy-5HTwp8NU="
              alt="day and night" width="70px" height="70px" transform="rotate(90deg)"></p>
             <!-- text area for user to submit message/comments -->
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea></div>
             <!--adding a reset button to clear the form if needed --> 
-            <br>
             <button type="reset">Reset</button>
             <!--adding a submit button to submit the form -->
-            <button type="submit">Submit form!</button>
+            <button type="submit">Submit form!</button> </p>
             
          
 </body>
+
 <footer>
+  
   <p>Copyright © 2025 Lee Michel</p>
   <p>All rights reserved</p>
+
 </footer>
 </html>

@@ -4,6 +4,19 @@ h1 {
     font-size: 40px;
     text-shadow: hsl(0, 0%, 100%) 3px 3px 3px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+    
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
 }
     
 /* using font family to change the font of the text, 
@@ -22,16 +35,48 @@ body {
        border: 1em groove rgba(0, 0, 0 , 0.5);
        box-sizing: border-box;
        background: linear-gradient( #8dd6f5, #d991f7);
+       
+       
      }
+
+     .contactme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+       
+     }
+
+     .connect {
+        display: flex;
+        justify-content: center;
+     }
+
+    .programs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        list-style-position: inside;
+        
+       
+    }
+
+    
 /* Using CSS box model with my table in HTML */
 table {
     width: 100%;
-    border-collapse: collapse;
     margin: 1em auto;
-    overflow-x: auto;
-    display: block;
-    box-sizing: border-box
+    display: block center;
     
+
 }
 /* Using CSS box model to set the padding, margin, and border of the table */
 th,td {
@@ -48,7 +93,8 @@ footer {
         text-shadow: 2px 2px 2px rgb(253, 248, 81);
         margin-top: 30px;
         padding: 25px;
-        box-sizing: border-box;
+        
+
         
        }
 /* Center aligned text "Courses" on my table to be more readable */
@@ -68,42 +114,45 @@ caption {
         border: #e607b9 5px solid;
         border-radius: 50%;
         object-fit: cover;
-        
-        
+            
     }
 
 /* Using box shadow to create a background effect */
 .project1 {
-        width: 100%;
-        height: 100%;
+        
         transform: scale(1.0);
         transform-origin: top left;
-        max-width: 300px;
-        box-shadow: 0px 4px 16px rgb(255, 142, 3);
         object-fit: cover;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        max-width: 100%;
+        height: 35em;
         
         }
 /* Using css box model to set the padding, margin, and border of the image */
 .pic2 {
-        width: 75px;
-        height: 75px;
-        padding: 2px;
-        margin: 20px auto;
+        
+        
         border: #05eaf6 5px solid;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        
         
     }
 /*styling Contact me section with text shadow, font size, and color */
-.contact {  font-size: 25px;
+ .contact {  font-size: 25px;
             text-decoration: underline;
             color: rgb(238, 8, 8);
             text-shadow: black 1px 1px 2px;
-            font-weight: bold;
+            font-weight: bold; 
 }
-/*positioning ordered list so its not cut off from the page */
-    ol{
-        list-style-position: inside;
-    }
 
     /* When text area is selected, it will have a background color as your typing */
  input:focus {
@@ -114,56 +163,73 @@ caption {
 .social-link:hover{
     text-decoration: underline;
     color: #e607b9;
+    
+    .skills {
+        display: inline-block;
+        justify-content: center;
+    }
+
 
 }
-/* underlining my phone number and changing the color */
-.phone a {
-    color: #e607b9 !important;
-    text-decoration: underline !important;
-    
-}
+
+    .phone {
+        display: flex;
+        justify-content: flex-end;
+        color: #e607b9 !important;
+        text-decoration: underline !important;
+
+    }
+
+
+    .form {
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .summary {
+        text-align: start;
+       
+    }
+
+   .morning{
+    position: relative;     
+    top: 15px;
+   }
+   .afternoon{
+    position: relative;
+    top: 15px;
+   }
+   .evening{
+    position: relative;
+    top: 15px;
+   }
 
 /* changing the color of the placeholder text in the input field */
 input:focus::placeholder {
     color: #5251ab;
 }
-/* adjusting the width of the text across the page */
-.summary{
-    max-width: 600px;
-    margin: 0;
-    word-wrap: break-word;
-    text-align: left;
-}
 
-/* making the images responsive to the page */
-img {
-    max-width: 100%;
-    height: auto;
     
-}
-/* making the images responsive to mobile devices */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 28px;
-        text-align: center;
-    }
-    .summary {
-        max-width: 100%;
-        padding: 0, 1em;
-        margin: auto;
-        text-align: left;
-    }
 
-    .pic1, .pic2{
-        display: block;
-        margin: 1em auto;
-    }
-    table, th, td {
+
+ .name {
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+ }
+/* making the images responsive to mobile devices */
+@media (max-width: 768px) 
+   
+        table, th, td {
         width: 100%;
         margin: 1em 0;
         padding: 1em;
-        font-size: 14px;
-}
+        font-size: 14px; 
+} 
 
     caption {
         font-size: 1.5em;
@@ -176,6 +242,9 @@ img {
         padding: 1em;
         border-width: 1em;
     }
-    
+    .email {
+        display: flex;
+        justify-content: flex-end;
+    }
 
-}
+        
