@@ -223,10 +223,11 @@ input:focus::placeholder {
 
 /* displaying flex to center content*/
  .name {
-        font-size: 28px;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         margin-top: -100px;
+        position: sticky;
  }
     caption {
         font-size: 1.5em;
