@@ -225,16 +225,6 @@ input:focus::placeholder {
         justify-content: center;
         margin-top: -100px;
  }
-/* making the images responsive to mobile devices */
-@media (max-width: 768px) 
-   
-        table, th, td {
-        width: 100%;
-        margin: 1em 0;
-        padding: 1em;
-        font-size: 14px; 
-} 
-
     caption {
         font-size: 1.5em;
     }
