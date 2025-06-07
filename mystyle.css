@@ -242,3 +242,10 @@ input:focus::placeholder {
     }
 
         
+
+    @media (max-width: 768px) {
+        th, td, .project1 {
+            flex-direction: column;
+            padding:10px;
+        }
+    }
