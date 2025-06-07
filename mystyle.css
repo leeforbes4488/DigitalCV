@@ -37,6 +37,9 @@ body {
        border: 1em groove rgba(0, 0, 0 , 0.5);
        box-sizing: border-box;
        background: linear-gradient( #8dd6f5, #d991f7);
+       max-width: fit-content;
+       min-width: auto;
+       border-collapse: collapse;
        
        
      }
@@ -241,13 +244,22 @@ input:focus::placeholder {
         justify-content: flex-end;
     }
 
+    hr{
+        height: 3px;
+        background-color: rgba(0, 0, 0 , 0.9);
+    }
+
         
 
     @media (max-width: 768px) {
         table, th, td, .project1 tbody {
             max-width: 100%;
+            min-width: 300px;
             flex-direction: column;
             padding: 10px;
-            overflow: hidden;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            border-collapse: collapse;
+
         }
     }
