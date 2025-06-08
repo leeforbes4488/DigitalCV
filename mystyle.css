@@ -271,20 +271,24 @@ input:focus::placeholder {
 
         @media screen and (max-width: 600px) {
             table, thead, tbody, th, td, tr{
-                display: table-cell;
+                display: block;
                 width: 100%;
                 overflow-x: auto;
+                border-collapse: collapse;
             }
-            table tr {
-                display: table-cell;
-                position: relative;
+
+            thead {
+                display: none;
+            }
+                tr {
+                    margin-bottom: 1rem;
+                    border: 1px solid black;
+                    padding: 10px;
                 
             }
             
              td {
-               display: table-cell ;
-               width: 100%;
-                position: relative;
+                position: relative ;
                 padding-left: 50%;
                 text-align: left;
             }
@@ -293,6 +297,7 @@ input:focus::placeholder {
                 position: absolute;
                 left: 10px;
                 font-weight: bold;
+                white-space: nowrap;
             }
             
             @media (max-width: 767px;) {
