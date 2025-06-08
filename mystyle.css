@@ -269,28 +269,29 @@ input:focus::placeholder {
         background-color: rgba(0, 0, 0 , 0.9);
     }
 
-        @media (max-width: 767px) {
-            table{
-                display: flex;
-                position: relative;
-                width: 100vw;
-                height: auto;
+        @media screen and (max-width: 600px) {
+            table, thead, tbody, th, td, tr{
+                display: block;
+                width: 100%;
             }
-            table thead {
-                display: flex;
+            table tr {
+                display: block;
                 position: relative;
                 
             }
-            table tbody,
-            table tr,
-            table td {
-               display: flex ;
-               width: 100vw;
+            
+             td {
+               display: block ;
+               width: 100%;
                 position: relative;
+                padding-left: 50%;
+                text-align: left;
             }
-            table tr {
-                margin-bottom: 1rem;
-                border-bottom: 1px solid black;
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
             }
             
             @media (max-width: 767px;) {
