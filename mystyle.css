@@ -272,7 +272,6 @@ input:focus::placeholder {
         @media (max-width: 767px) {
             table{
                 display: block;
-                position: absolute;
                 width: 100%;
             }
             table thead {
@@ -294,7 +293,7 @@ input:focus::placeholder {
                 .name .email .phone body {
                     flex-direction: column;
                     margin-top: 20px;
-                    
+
                 }
             }
             
