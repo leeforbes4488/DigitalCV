@@ -271,39 +271,25 @@ input:focus::placeholder {
 
         @media (max-width: 767px) {
             table{
-                display: inline-table;
+                display: list-item;
                 position: absolute;
                 width: 100%;
             }
             table thead {
-                display: inline-table;
-                position: absolute;
+                display:list-item;
+                
             }
             table tbody,
             table tr,
             table td {
-                display:inline-table ;
-                position: absolute;
-                width: 100%;
+               display:list-item ;
+               width: 100%;
             }
             table tr {
                 margin-bottom: 1rem;
                 border-bottom: 1px solid black;
             }
-            table td {
-                text-align: right;
-                padding-left: 50%;
-                position: relative;
-            }
-            table td::before {
-                content: attr(data-label);
-                position: absolute;
-                left: 0;
-                width: 50%;
-                padding-left: 1rem;
-                font-weight: bold;
-                text-align: left;
-            }
+            
             @media (max-width: 767px;) {
                 .name .email .phone body {
                     flex-direction: column;
