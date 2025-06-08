@@ -37,9 +37,10 @@ body {
        border: 1em groove rgba(0, 0, 0 , 0.5);
        box-sizing: border-box;
        background: linear-gradient( #8dd6f5, #d991f7);
-       max-width: fit-content;
-       min-width: auto;
+       max-width: 600px;
+       min-width: 100px;
        border-collapse: collapse;
+        border-width: 1em;
        
        
      }
@@ -185,8 +186,9 @@ caption {
     /* displaying flex to center content*/
     .phone {
         display: flex;
+        margin-top: 20px;
+        padding-top: 10px;
         justify-content: flex-end;
-        flex-direction: column;
         color: #e607b9 !important;
         text-decoration: underline !important;
 
@@ -236,6 +238,8 @@ input:focus::placeholder {
         justify-items: center;
         margin-top: -100px;
         flex-direction: column;
+        margin-top: 20px;
+        padding-top: 10px;
 
  }
     caption {
@@ -248,11 +252,16 @@ input:focus::placeholder {
     body {
         padding: 1em;
         border-width: 1em;
+        max-width: 100%;
+        width: 100vw;
+
     }
     .email {
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
+        margin-top: 20px;
+        padding-top: 10px;
     }
 
     hr{
@@ -262,16 +271,16 @@ input:focus::placeholder {
 
         @media (max-width: 767px) {
             table{
-                display: block;
+                display: grid;
                 width: 100%;
             }
             table thead {
-                display: none;
+                display: grid;
             }
             table tbody,
             table tr,
             table td {
-                display: block;
+                display: grid ;
                 width: 100%;
             }
             table tr {
@@ -292,8 +301,8 @@ input:focus::placeholder {
                 font-weight: bold;
                 text-align: left;
             }
-            @media (max-width: 600px;) {
-                .name .email .phone {
+            @media (max-width: 767px;) {
+                .name .email .phone body {
                     flex-direction: column;
                 }
             }
