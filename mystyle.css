@@ -271,16 +271,19 @@ input:focus::placeholder {
 
         @media (max-width: 767px) {
             table{
-                display: table-row;
+                display: inline-flex;
+                position: relative;
                 width: 100%;
             }
             table thead {
-                display: table-row;
+                display: inline-flex;
+                position: relative;
             }
             table tbody,
             table tr,
             table td {
-                display: table-row ;
+                display:inline-flex ;
+                position: relative;
                 width: 100%;
             }
             table tr {
@@ -306,13 +309,9 @@ input:focus::placeholder {
                     flex-direction: column;
                 }
             }
-               @media (max-width 767px;) {
+            
 
-               .radio {
-                 margin-top: 20px;
-               }
-
-            }
+            
 }
         
     
