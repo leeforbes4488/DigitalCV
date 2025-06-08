@@ -271,18 +271,18 @@ input:focus::placeholder {
 
         @media (max-width: 767px) {
             table{
-                display: list-item;
+                display: block;
                 position: absolute;
                 width: 100%;
             }
             table thead {
-                display:list-item;
+                display: block;
                 
             }
             table tbody,
             table tr,
             table td {
-               display:list-item ;
+               display: block ;
                width: 100%;
             }
             table tr {
@@ -293,6 +293,8 @@ input:focus::placeholder {
             @media (max-width: 767px;) {
                 .name .email .phone body {
                     flex-direction: column;
+                    margin-top: 20px;
+                    
                 }
             }
             
