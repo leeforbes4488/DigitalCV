@@ -273,6 +273,7 @@ input:focus::placeholder {
             table, thead, tbody, th, td, tr{
                 display: block;
                 width: 100%;
+                overflow-x: auto;
             }
             table tr {
                 display: block;
