@@ -306,7 +306,13 @@ input:focus::placeholder {
                     flex-direction: column;
                 }
             }
-                
+               @media (max-width 767px;) {
+
+               .radio {
+                 margin-top: 20px;
+               }
+
+            }
 }
         
     
