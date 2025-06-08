@@ -272,18 +272,18 @@ input:focus::placeholder {
         @media (max-width: 767px) {
             table{
                 display: inline-table;
-                position: relative;
+                position: absolute;
                 width: 100%;
             }
             table thead {
                 display: inline-table;
-                position: relative;
+                position: absolute;
             }
             table tbody,
             table tr,
             table td {
                 display:inline-table ;
-                position: relative;
+                position: absolute;
                 width: 100%;
             }
             table tr {
