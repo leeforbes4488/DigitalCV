@@ -271,18 +271,18 @@ input:focus::placeholder {
 
         @media screen and (max-width: 600px) {
             table, thead, tbody, th, td, tr{
-                display: block;
+                display: table-cell;
                 width: 100%;
                 overflow-x: auto;
             }
             table tr {
-                display: block;
+                display: table-cell;
                 position: relative;
                 
             }
             
              td {
-               display: block ;
+               display: table-cell ;
                width: 100%;
                 position: relative;
                 padding-left: 50%;
