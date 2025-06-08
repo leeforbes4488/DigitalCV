@@ -271,16 +271,16 @@ input:focus::placeholder {
 
         @media (max-width: 767px) {
             table{
-                display: grid;
+                display: table-row;
                 width: 100%;
             }
             table thead {
-                display: grid;
+                display: table-row;
             }
             table tbody,
             table tr,
             table td {
-                display: grid ;
+                display: table-row ;
                 width: 100%;
             }
             table tr {
