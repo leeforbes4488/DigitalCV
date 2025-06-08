@@ -271,18 +271,22 @@ input:focus::placeholder {
 
         @media (max-width: 767px) {
             table{
-                display: block;
-                width: 100%;
+                display: flex;
+                position: relative;
+                width: 100vw;
+                height: auto;
             }
             table thead {
-                display: block;
+                display: flex;
+                position: relative;
                 
             }
             table tbody,
             table tr,
             table td {
-               display: block ;
-               width: 100%;
+               display: flex ;
+               width: 100vw;
+                position: relative;
             }
             table tr {
                 margin-bottom: 1rem;
