@@ -81,6 +81,8 @@ table {
     width: 100%;
     margin: 1em auto;
     display: block center;
+    border-collapse: collapse;
+    overflow-x: auto;
     
 
 }
@@ -92,6 +94,8 @@ th,td {
     word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
+    border-collapse: collapse;
+    overflow-x: auto;
     
 }
 /* Using text shadow to enchance the text black & white */
@@ -182,6 +186,7 @@ caption {
     .phone {
         display: flex;
         justify-content: flex-end;
+        flex-direction: column;
         color: #e607b9 !important;
         text-decoration: underline !important;
 
@@ -225,9 +230,13 @@ input:focus::placeholder {
  .name {
         font-size: 2rem;
         display: flex;
-        justify-content: center;
+        position: relative;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
         margin-top: -100px;
-        position: sticky;
+        flex-direction: column;
+
  }
     caption {
         font-size: 1.5em;
@@ -243,6 +252,7 @@ input:focus::placeholder {
     .email {
         display: flex;
         justify-content: flex-end;
+        flex-direction: column;
     }
 
     hr{
@@ -250,17 +260,44 @@ input:focus::placeholder {
         background-color: rgba(0, 0, 0 , 0.9);
     }
 
+        @media (max-width: 767px) {
+            table{
+                display: block;
+                width: 100%;
+            }
+            table thead {
+                display: none;
+            }
+            table tbody,
+            table tr,
+            table td {
+                display: block;
+                width: 100%;
+            }
+            table tr {
+                margin-bottom: 1rem;
+                border-bottom: 1px solid black;
+            }
+            table td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+            table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 1rem;
+                font-weight: bold;
+                text-align: left;
+            }
+            @media (max-width: 600px;) {
+                .name .email .phone {
+                    flex-direction: column;
+                }
+            }
+                
+}
         
-
-    @media (max-width: 768px) {
-        table, th, td, .project1 tbody {
-            max-width: 100%;
-            min-width: 300px;
-            flex-direction: column;
-            padding: 10px;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-            border-collapse: collapse;
-
-        }
-    }
+    
