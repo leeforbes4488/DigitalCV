@@ -269,6 +269,7 @@ input:focus::placeholder {
         background-color: rgba(0, 0, 0 , 0.9);
     }
 
+    /*mobile responsiveness*/
         @media screen and (max-width: 600px) {
             table, thead, tbody, th, td, tr{
                 display: block;
@@ -278,7 +279,10 @@ input:focus::placeholder {
             }
 
             thead {
-                display: none;
+                display: table-row-group;
+                position: relative;
+                text-align: center;
+                
             }
                 tr {
                     margin-bottom: 1rem;
@@ -289,8 +293,7 @@ input:focus::placeholder {
             
              td {
                 position: relative ;
-                padding-left: 50%;
-                text-align: left;
+                text-align: center;
             }
             td::before {
                 content: attr(data-label);
@@ -300,16 +303,19 @@ input:focus::placeholder {
                 white-space: nowrap;
             }
             
-            @media (max-width: 767px;) {
-                .name .email .phone body {
+            @media (max-width: 767px) {
+                .name, .email, .phone, body {
                     flex-direction: column;
                     margin-top: 20px;
-
+                    }
                 }
-            }
-            
 
-            
+            @media (max-width: 768px) {  
+                
+            .form {
+      
+        grid-template-columns: 1fr; 
+      }
+
+    }
 }
-        
-    
