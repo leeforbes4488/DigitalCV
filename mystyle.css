@@ -207,19 +207,6 @@ caption {
         text-align: start;
        
     }
-    /* adjusting radio buttons to align with text straight across*/
-   .morning{
-    position: relative;     
-    top: 15px;
-   }
-   .afternoon{
-    position: relative;
-    top: 15px;
-   }
-   .evening{
-    position: relative;
-    top: 15px;
-   }
 
 /* changing the color of the placeholder text in the input field */
 input:focus::placeholder {
@@ -314,7 +301,9 @@ input:focus::placeholder {
                 
             input#morning, input#evening, input#afternoon {
       
-               margin-top: 7em;
+               margin-bottom: 5em;
+               display: flex;
+               position: relative;
 
       }
 
