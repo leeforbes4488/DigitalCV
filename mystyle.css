@@ -301,7 +301,7 @@ input:focus::placeholder {
                 
             input#morning, input#evening, input#afternoon {
       
-               margin-bottom: 5em;
+              
                display: flex;
                position: relative;
 
