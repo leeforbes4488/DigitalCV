@@ -312,9 +312,10 @@ input:focus::placeholder {
 
             @media (max-width: 768px) {  
                 
-            .form {
+            #morning, #afternoon, #evening {
       
-        grid-template-columns: 1fr; 
+                top: 2em;
+
       }
 
     }
