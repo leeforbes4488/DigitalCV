@@ -312,9 +312,9 @@ input:focus::placeholder {
 
             @media (max-width: 768px) {  
                 
-            #morning, #afternoon, #evening {
+            input#morning, input#evening, input#afternoon {
       
-                top: 3em;
+               margin-top: 3em;
 
       }
 
